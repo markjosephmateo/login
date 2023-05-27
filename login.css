@@ -1,0 +1,121 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #login-form {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #username,
+  #password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #login-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  #social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  #register-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #register-section span {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #register-link {
+    font-weight: bold;
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  #register-link:hover {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+  
+  .forgot-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .forgot-link {
+    color: #dc3545;
+    text-decoration: none;
+  }
+  
+  .forgot-link:hover {
+    text-decoration: underline;
+  }
+  
+  #forgot-password {
+    text-align: left;
+    color: #dc3545;
+  }
+  
+  #forgot-username {
+    text-align: right;
+    color: #dc3545;
+  }
+  
+  #remember-me-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #remember-me-checkbox {
+    margin-right: 5px;
+  }
+  
+  #remember-me-label {
+    font-size: 14px;
+    color: #333;
+  }
+  
